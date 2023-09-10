@@ -1,0 +1,59 @@
+*{
+    padding:0;
+}
+#backvideo{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+@media (max-width: 750px) {
+    #background-video { display: none; }
+    body {
+      background: url("C:\Users\Administrator\Desktop\WEB DEVELOPMENT\DOM Model\pexels-rostislav-uzunov-9867271-3840x2160-24fps (1).mp4") no-repeat;
+      background-size: cover;
+    }
+}
+.container{
+    display:flexbox;
+    text-align:center;
+    font-size:bold;
+    font-family: cursive;
+}
+h1{
+    color:bisque;
+}
+p{
+    color:antiquewhite;
+}
+.dice1{
+     position:relative;
+     right:500px;
+}
+.dice2{
+    position:relative;
+    float:right;
+    padding-right:100px;
+    padding-bottom:400px; 
+}
+.img1{
+     size:10px;
+}
+
+.img2{
+    size:10px
+}
+footer{
+    font-size:1rem;
+    text-align:center;
+    font-family: sans-serif;
+}
+footer{
+    text-align:center;
+    padding-top:800px;
+}
