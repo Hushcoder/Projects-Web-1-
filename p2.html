@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clock</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: url("https://fonts.googleapis.com/css2?family=Archivo&family=Kalam&family=Libre+Baskerville&family=Merriweather:wght@400;900&family=Montserrat:wght@100;400;900&family=Red+Hat+Display:ital,wght@1,300&family=Sacramento&family=Ubuntu&display=swap");
+      }
+      body {
+        background-color: grey;
+      }
+      .container {
+        display: flex;
+        height: 90vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      #ban {
+        font-weight: 200;
+        font-size: 30px;
+        font-family: "Ubuntu", sans-serif;
+      }
+      #clock {
+        background-color: #16ff00;
+        width: 120px;
+        height: 50px;
+        border: 2px solid #000;
+        border-radius: 20px;
+        padding: 16px;
+        margin: 40px;
+        filter: drop-shadow(8px 8px 8px #000);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="ban"><span>Your Local Time</span></div>
+      <div id="clock"></div>
+    </div>
+    <script src="p2.js"></script>
+  </body>
+</html>
