@@ -1,2 +1,2 @@
-# dicegame
-It's a simple dice game using html,css,javascript
+Mini project
+Simple projects made using html, css and javascript
